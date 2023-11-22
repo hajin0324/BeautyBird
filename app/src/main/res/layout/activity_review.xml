@@ -1,0 +1,280 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		________review
+	 *	@date 		Wednesday 22nd of November 2023 12:20:56 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/________review" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View
+				android:id="@+id/_bg___________review"
+				android:layout_width="412dp"
+				android:layout_height="844dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg___________review_shape" />
+
+			<View
+				android:id="@+id/rectangle_1"
+				android:background="@drawable/rectangle_1_shape"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="131dp"
+				android:layout_width="412dp"
+				android:layout_height="326dp" />
+
+			<ImageView
+				android:id="@+id/rectangle_2"
+				android:src="@drawable/rectangle_2"
+				android:contentDescription="rectangle_2"
+				android:layout_width="180dp"
+				android:layout_height="180dp"
+				android:layout_marginStart="16dp"
+				android:layout_marginTop="190dp" />
+
+			<ImageView
+				android:id="@+id/rectangle_4"
+				android:src="@drawable/rectangle_4"
+				android:contentDescription="rectangle_4"
+				android:layout_width="166dp"
+				android:layout_height="180dp"
+				android:layout_marginStart="206dp"
+				android:layout_marginTop="570dp" />
+
+			<ImageView android:id="@+id/rectangle_5"
+				android:src="@drawable/rectangle_5"
+				android:contentDescription="rectangle_5"
+				 android:layout_marginStart="19dp"
+				android:layout_marginTop="517dp"
+				android:layout_width="160dp"
+				android:layout_height="180dp" />
+
+			<TextView android:id="@+id/this_week_s_review"
+				android:textStyle="bold"
+				android:textSize="18sp"
+				android:textColor="@color/_bg___________review_color"
+				android:layout_marginLeft="19dp"
+				android:layout_marginTop="153dp"
+				android:layout_width="206.8dp"
+				android:layout_height="32.8dp"
+				android:text="@string/this_week_s_review_string"
+				 />
+
+			<TextView android:id="@+id/popularity_review"
+				android:textSize="18sp"
+				android:textColor="@color/popularity_review_color"
+				android:layout_marginLeft="19dp"
+				android:layout_marginTop="476dp"
+				android:layout_width="175.8dp"
+				android:layout_height="29.8dp"
+				android:text="@string/popularity_review_string"
+				 />
+
+			<ImageView
+				android:id="@+id/rectangle_3"
+				android:src="@drawable/rectangle_3"
+				android:contentDescription="rectangle_3"
+				android:layout_width="180dp"
+				android:layout_height="180dp"
+				android:layout_marginStart="212dp"
+				android:layout_marginTop="190dp" />
+
+			<TextView android:id="@+id/ettude"
+				android:textStyle="bold"
+				android:textSize="14sp"
+				android:textColor="@color/_bg___________review_color"
+				android:layout_marginLeft="22dp"
+				android:layout_marginTop="379dp"
+				android:layout_width="79.4dp"
+				android:layout_height="31.4dp"
+				android:text="@string/ettude_string"
+				 />
+
+			<TextView android:id="@+id/hera"
+				android:textStyle="bold"
+				android:textSize="14sp"
+				android:textColor="@color/_bg___________review_color"
+				android:layout_marginLeft="218dp"
+				android:layout_marginTop="379dp"
+				android:layout_width="79.4dp"
+				android:layout_height="31.4dp"
+				android:text="@string/hera_string"
+				 />
+
+			<View   android:id="@+id/_____1"
+				android:background="@drawable/_____1_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="766dp"
+				android:layout_width="370dp"
+				android:layout_height="78dp" />
+
+			<Button
+				android:id="@+id/magazine"
+				android:background="#00ff0000"
+				android:textSize="14sp"
+				android:textColor="@color/popularity_review_color"
+				android:layout_marginLeft="103dp"
+				android:layout_marginTop="90dp"
+				android:layout_width="103dp"
+				android:layout_height="44dp"
+				android:text="@string/magazine_string"
+				 />
+
+			<TextView
+				android:id="@+id/community"
+				android:layout_width="100dp"
+				android:layout_height="28.6dp"
+				android:layout_marginLeft="156dp"
+				android:layout_marginTop="39dp"
+				android:text="@string/community_string"
+				android:textColor="@color/popularity_review_color"
+				android:textSize="16sp"
+				android:textStyle="bold" />
+
+			<Button
+				android:id="@+id/reviewBtn"
+				android:background="#00ff0000"
+				android:textSize="14sp"
+				android:textColor="@color/popularity_review_color"
+				android:layout_marginLeft="0dp"
+				android:layout_marginTop="90dp"
+				android:layout_width="103dp"
+				android:layout_height="44dp"
+				android:text="@string/review_string"
+				 />
+
+			<Button
+				android:id="@+id/question"
+				android:background="#00ff0000"
+				android:textSize="14sp"
+				android:textColor="@color/popularity_review_color"
+				android:layout_marginLeft="206dp"
+				android:layout_marginTop="90dp"
+				android:layout_width="103dp"
+				android:layout_height="44dp"
+				android:text="@string/question_string"
+				 />
+
+			<Button
+				android:id="@+id/following"
+				android:background="#00ff0000"
+				android:textSize="14sp"
+				android:textColor="@color/popularity_review_color"
+				android:layout_marginLeft="309dp"
+				android:layout_marginTop="90dp"
+				android:layout_width="103dp"
+				android:layout_height="44dp"
+				android:text="@string/following_string"
+				 />
+
+			<TextView android:id="@+id/color_is_really_beautiful_and_i_can_use_it_anywhere_on_my_body"
+				android:textSize="11sp"
+				android:textColor="@color/_bg___________review_color"
+				android:layout_marginLeft="23dp"
+				android:layout_marginTop="402dp"
+				android:layout_width="165.1dp"
+				android:layout_height="24.1dp"
+				android:text="@string/color_is_really_beautiful_and_i_can_use_it_anywhere_on_my_body_string"
+				 />
+
+			<TextView android:id="@+id/this_is_tint_number_1003_i_really_recommend_to_teenagers_like_me"
+				android:textSize="11sp"
+				android:textColor="@color/_bg___________review_color"
+				android:layout_marginLeft="218dp"
+				android:layout_marginTop="401dp"
+				android:layout_width="178.1dp"
+				android:layout_height="27.1dp"
+				android:text="@string/this_is_tint_number_1003_i_really_recommend_to_teenagers_like_me_string"
+				 />
+
+			<ImageView android:id="@+id/image_3"
+				android:src="@drawable/image_3"
+				android:contentDescription="image_3"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="766dp"
+				android:layout_width="390dp"
+				android:layout_height="78dp" />
+
+			<ImageView
+				android:id="@+id/image_3_ek1"
+				android:src="@drawable/image_3_ek1"
+				android:contentDescription="image_3_ek1"
+				android:layout_width="39dp"
+				android:layout_height="46dp"
+				android:layout_marginStart="14dp"
+				android:layout_marginTop="26dp" />
+
+			<ImageView android:id="@+id/rectangle_6"
+				android:src="@drawable/rectangle_6"
+				android:contentDescription="rectangle_6"
+				 android:layout_marginStart="21dp"
+				android:layout_marginTop="704dp"
+				android:layout_width="157dp"
+				android:layout_height="44dp" />
+
+			<ImageView android:id="@+id/rectangle_7"
+				android:src="@drawable/rectangle_7"
+				android:contentDescription="rectangle_7"
+				 android:layout_marginStart="210dp"
+				android:layout_marginTop="518dp"
+				android:layout_width="157dp"
+				android:layout_height="44dp" />
+
+			<TextView android:id="@+id/top_1__loccitane"
+				android:textSize="11sp"
+				android:textColor="@color/popularity_review_color"
+				android:layout_marginLeft="31dp"
+				android:layout_marginTop="710dp"
+				android:layout_width="148.1dp"
+				android:layout_height="21.1dp"
+				android:text="@string/top_1__loccitane_string"
+				 />
+
+			<TextView android:id="@+id/top_2__hera_spring"
+				android:textSize="11sp"
+				android:textColor="@color/popularity_review_color"
+				android:layout_marginLeft="221dp"
+				android:layout_marginTop="524dp"
+				android:layout_width="148.1dp"
+				android:layout_height="21.1dp"
+				android:text="@string/top_2__hera_spring_string"
+				 />
+
+			<TextView android:id="@+id/hajin_choi"
+				android:textColor="@color/popularity_review_color"
+				android:layout_marginLeft="290dp"
+				android:layout_marginTop="538dp"
+				android:layout_width="69.8dp"
+				android:layout_height="20.8dp"
+				android:text="@string/hajin_choi_string"
+				 />
+
+			<TextView android:id="@+id/minseo_dan"
+				android:textColor="@color/popularity_review_color"
+				android:layout_marginLeft="94dp"
+				android:layout_marginTop="726dp"
+				android:layout_width="84dp"
+				android:layout_height="20.8dp"
+				android:text="@string/minseo_dan_string"
+				 />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

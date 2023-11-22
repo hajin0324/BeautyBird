@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ________review strings -->
+
+    <string name="app_name">Page 1</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="this_week_s_review_string">This Weeks Review</string>
+    <string name="popularity_review_string">Popularity Review</string>
+    <string name="ettude_string">Ettude</string>
+    <string name="hera_string">HERA</string>
+    <string name="magazine_string">Magazine</string>
+    <string name="community_string">COMMUNITY</string>
+    <string name="review_string">Review</string>
+    <string name="question_string">Question</string>
+    <string name="following_string">Following</string>
+    <string name="color_is_really_beautiful_and_i_can_use_it_anywhere_on_my_body_string">Color is really beautiful and I can use it anywhere on my body</string>
+    <string name="this_is_tint_number_1003_i_really_recommend_to_teenagers_like_me_string">This is Tint number 1003i really recommend to teenagers like me</string>
+    <string name="top_1__loccitane_string">TOP 1. LOCCITANE</string>
+    <string name="top_2__hera_spring_string">TOP 2. HERA SPRING</string>
+    <string name="hajin_choi_string">Hajin CHOI</string>
+    <string name="minseo_dan_string">Minseo Dan</string>
+</resources>
