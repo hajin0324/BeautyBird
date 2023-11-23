@@ -1,0 +1,225 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/following_page"
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<ImageView
+				android:id="@+id/arrow"
+				android:src="@drawable/arrow"
+				android:layout_width="39dp"
+				android:layout_height="46dp"
+				android:layout_marginStart="14dp"
+				android:layout_marginTop="26dp" />
+
+			<TextView
+				android:id="@+id/community"
+				android:text="@string/community_string"
+				android:textColor="#000000"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_width="100dp"
+				android:layout_height="28.6dp"
+				android:layout_marginLeft="156dp"
+				android:layout_marginTop="39dp" />
+
+			<Button
+				android:id="@+id/magazine_btn"
+				android:background="#00ff0000"
+				android:text="@string/magazine_string"
+				android:textSize="14sp"
+				android:textColor="#000000"
+				android:layout_width="103dp"
+				android:layout_height="44dp"
+				android:layout_marginLeft="103dp"
+				android:layout_marginTop="90dp" />
+
+			<Button
+				android:id="@+id/review_btn"
+				android:background="#00ff0000"
+				android:text="@string/review_string"
+				android:textSize="14sp"
+				android:textColor="#000000"
+				android:layout_width="103dp"
+				android:layout_height="44dp"
+				android:layout_marginLeft="0dp"
+				android:layout_marginTop="90dp" />
+
+			<Button
+				android:id="@+id/question_btn"
+				android:background="#00ff0000"
+				android:text="@string/question_string"
+				android:textSize="14sp"
+				android:textColor="#000000"
+				android:layout_width="103dp"
+				android:layout_height="44dp"
+				android:layout_marginLeft="206dp"
+				android:layout_marginTop="90dp" />
+
+			<Button
+				android:id="@+id/following_btn"
+				android:background="#00FF0000"
+				android:text="@string/following_string"
+				android:textSize="14sp"
+				android:textColor="#000000"
+				android:layout_width="103dp"
+				android:layout_height="44dp"
+				android:layout_marginLeft="309dp"
+				android:layout_marginTop="90dp" />
+
+			<ImageView
+				android:id="@+id/line"
+				android:contentDescription="line"
+				android:layout_marginTop="134dp"
+				android:layout_width="412dp"
+				android:layout_height="3dp"
+				android:background="#D3D3D3" />
+
+			<View
+				android:id="@+id/following_bg"
+				android:background="#F3F3F3"
+				android:layout_width="412dp"
+				android:layout_height="680dp"
+				android:layout_marginTop="136dp" />
+
+			<TextView
+				android:id="@+id/following_head1"
+				android:background="#FFFFFF"
+				android:layout_marginStart="22dp"
+				android:layout_marginTop="156dp"
+				android:layout_width="220dp"
+				android:layout_height="26dp"
+				android:text="Recommend UNNIS Influence"
+				android:textColor="#000000"
+				android:gravity="center" />
+
+			<RelativeLayout
+				android:id="@+id/influencer1"
+				android:background="#FFFFFF"
+				android:layout_width="160dp"
+				android:layout_height="178dp"
+				android:layout_marginStart="32dp"
+				android:layout_marginTop="200dp" >
+
+				<View
+					android:id="@+id/ellipse1"
+					android:background="@drawable/ellipse"
+					android:layout_width="96dp"
+					android:layout_height="96dp"
+					android:layout_marginStart="32dp"
+					android:layout_marginTop="16dp" />
+
+				<ImageView
+					android:id="@+id/influencer_img1"
+					android:src="@drawable/influencer_img1"
+					android:layout_width="74dp"
+					android:layout_height="83dp"
+					android:layout_marginStart="43dp"
+					android:layout_marginTop="22dp" />
+
+				<TextView
+					android:id="@+id/xoxo"
+					android:text="xoxo"
+					android:textStyle="bold"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:layout_width="26dp"
+					android:layout_height="22.2dp"
+					android:layout_marginLeft="67dp"
+					android:layout_marginTop="120dp" />
+
+				<TextView
+					android:id="@+id/follow_button1"
+					android:background="@drawable/follow_button"
+					android:text="Follow"
+					android:textColor="#FFFFFF"
+					android:gravity="center"
+					android:textStyle="bold"
+					android:layout_width="134dp"
+					android:layout_height="26dp"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="140dp" />
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:id="@+id/influencer2"
+				android:layout_width="160dp"
+				android:layout_height="178dp"
+				android:layout_marginStart="216dp"
+				android:layout_marginTop="200dp"
+				android:background="#FFFFFF">
+
+				<View
+					android:id="@+id/ellipse2"
+					android:background="@drawable/ellipse"
+					android:layout_width="96dp"
+					android:layout_height="96dp"
+					android:layout_marginStart="32dp"
+					android:layout_marginTop="16dp" />
+
+				<ImageView
+					android:id="@+id/influencer_img2"
+					android:src="@drawable/influencer_img2"
+					android:layout_width="74dp"
+					android:layout_height="83dp"
+					android:layout_marginStart="43dp"
+					android:layout_marginTop="22dp" />
+
+				<TextView android:id="@+id/ming"
+					android:text="ming"
+					android:textStyle="bold"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:layout_width="30dp"
+					android:layout_height="22.2dp"
+					android:layout_marginLeft="65dp"
+					android:layout_marginTop="120dp" />
+
+				<TextView
+					android:id="@+id/follow_button2"
+					android:background="@drawable/follow_button"
+					android:text="Follow"
+					android:textColor="#FFFFFF"
+					android:gravity="center"
+					android:textStyle="bold"
+					android:layout_width="134dp"
+					android:layout_height="26dp"
+					android:layout_marginStart="14dp"
+					android:layout_marginTop="140dp" />
+			</RelativeLayout>
+
+			<TextView
+				android:id="@+id/following_head2"
+				android:background="#FFFFFF"
+				android:layout_marginStart="22dp"
+				android:layout_marginTop="400dp"
+				android:layout_width="96dp"
+				android:layout_height="26dp"
+				android:text="Following"
+				android:textColor="#000000"
+				android:gravity="center" />
+
+			<ImageView
+				android:id="@+id/following_post"
+				android:src="@drawable/following_post"
+				android:layout_width="380dp"
+				android:layout_height="370dp"
+				android:layout_marginStart="14dp"
+				android:layout_marginTop="444dp" />
+
+			<ImageView
+				android:id="@+id/tab_bar"
+				android:src="@drawable/tab_bar"
+				android:layout_marginTop="814dp"
+				android:layout_width="412dp"
+				android:layout_height="78dp" />
+
+		</RelativeLayout>
+	</ScrollView>
+</HorizontalScrollView>
