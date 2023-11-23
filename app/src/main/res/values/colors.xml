@@ -17,4 +17,13 @@
 	<color name="rectangle_1_color">#6BBCA2</color>
 	<color name="popularity_review_color">#000000</color>
 	<color name="_____1_color">#ffffff</color>
+	<color name="_bg___________following_color">#FFFFFF</color>
+	<color name="magazine_color">#000000</color>
+	<color name="rectangle_27_color">#FAFAFA</color>
+	<color name="rectangle_31_color">#8AD5BD</color>
+	<color name="_bg___________magazine_color">#FFFFFF</color>
+	<color name="_bg___________question_color">#FFFFFF</color>
+	<color name="rectangle_11_color">#D9D9D9</color>
+	<color name="reply_first_color">#4F7D6E</color>
+
 </resources>

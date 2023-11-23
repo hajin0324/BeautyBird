@@ -1,19 +1,5 @@
 package com.example.beautybird;
 
-/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		________review
-	 *	@date 		Wednesday 22nd of November 2023 12:20:56 AM
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,37 +8,38 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class ReviewActivity extends Activity {
 
-	
-	private View _bg___________review;
-	private View rectangle_1;
-	private ImageView rectangle_2;
-	private ImageView rectangle_4;
-	private ImageView rectangle_5;
-	private TextView this_week_s_review;
-	private TextView popularity_review;
-	private ImageView rectangle_3;
-	private TextView ettude;
-	private TextView hera;
-	private View _____1;
-	private TextView magazine;
+
+	private ImageView arrow;
 	private TextView community;
-	private TextView reviewBtn;
-	private TextView question;
-	private TextView following;
-	private TextView color_is_really_beautiful_and_i_can_use_it_anywhere_on_my_body;
-	private TextView this_is_tint_number_1003_i_really_recommend_to_teenagers_like_me;
-	private ImageView image_3;
-	private ImageView image_3_ek1;
-	private ImageView rectangle_6;
-	private ImageView rectangle_7;
-	private TextView top_1__loccitane;
-	private TextView top_2__hera_spring;
-	private TextView hajin_choi;
+	private Button review_btn;
+	private Button question_btn;
+	private Button magazine_btn;
+	private Button following_btn;
+	private RelativeLayout weeks_review_container;
+	private TextView this_week_s_review;
+	private ImageView ettude_img;
+	private TextView ettude_name;
+	private TextView ettude_review;
+	private ImageView hera_img;
+	private TextView hera_name;
+	private TextView hera_review;
+	private TextView popularity_review;
+	private RelativeLayout pop1;
+	private ImageView loccitane_img;
+	private ImageView loccitane_box;
+	private TextView loccitane_name;
 	private TextView minseo_dan;
+	private RelativeLayout pop2;
+	private ImageView cusion_box;
+	private TextView cusion_name;
+	private TextView hajin_choi;
+	private ImageView cusion_img;
+	private ImageView tab_bar;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -60,45 +47,43 @@ public class ReviewActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_review);
 
-		
-		_bg___________review = (View) findViewById(R.id._bg___________review);
-		rectangle_1 = (View) findViewById(R.id.rectangle_1);
-		rectangle_2 = (ImageView) findViewById(R.id.rectangle_2);
-		rectangle_4 = (ImageView) findViewById(R.id.rectangle_4);
-		rectangle_5 = (ImageView) findViewById(R.id.rectangle_5);
-		this_week_s_review = (TextView) findViewById(R.id.this_week_s_review);
-		popularity_review = (TextView) findViewById(R.id.popularity_review);
-		rectangle_3 = (ImageView) findViewById(R.id.rectangle_3);
-		ettude = (TextView) findViewById(R.id.ettude);
-		hera = (TextView) findViewById(R.id.hera);
-		_____1 = (View) findViewById(R.id._____1);
-		magazine = (TextView) findViewById(R.id.magazine);
+		arrow = (ImageView) findViewById(R.id.arrow);
 		community = (TextView) findViewById(R.id.community);
-		reviewBtn = (TextView) findViewById(R.id.reviewBtn);
-		question = (TextView) findViewById(R.id.question);
-		following = (TextView) findViewById(R.id.following);
-		color_is_really_beautiful_and_i_can_use_it_anywhere_on_my_body = (TextView) findViewById(R.id.color_is_really_beautiful_and_i_can_use_it_anywhere_on_my_body);
-		this_is_tint_number_1003_i_really_recommend_to_teenagers_like_me = (TextView) findViewById(R.id.this_is_tint_number_1003_i_really_recommend_to_teenagers_like_me);
-		image_3 = (ImageView) findViewById(R.id.image_3);
-		image_3_ek1 = (ImageView) findViewById(R.id.image_3_ek1);
-		rectangle_6 = (ImageView) findViewById(R.id.rectangle_6);
-		rectangle_7 = (ImageView) findViewById(R.id.rectangle_7);
-		top_1__loccitane = (TextView) findViewById(R.id.top_1__loccitane);
-		top_2__hera_spring = (TextView) findViewById(R.id.top_2__hera_spring);
-		hajin_choi = (TextView) findViewById(R.id.hajin_choi);
+		review_btn = (Button) findViewById(R.id.review_btn);
+		question_btn = (Button) findViewById(R.id.question_btn);
+		magazine_btn = (Button) findViewById(R.id.magazine_btn);
+		following_btn = (Button) findViewById(R.id.following_btn);
+		weeks_review_container = (RelativeLayout) findViewById(R.id.weeks_review_container);
+		this_week_s_review = (TextView) findViewById(R.id.this_weeks_review);
+		ettude_img = (ImageView) findViewById(R.id.ettude_img);
+		ettude_name = (TextView) findViewById(R.id.ettude_name);
+		ettude_review = (TextView) findViewById(R.id.ettude_review);
+		hera_img = (ImageView) findViewById(R.id.hera_img);
+		hera_name = (TextView) findViewById(R.id.hera_name);
+		hera_review = (TextView) findViewById(R.id.hera_review);
+		popularity_review = (TextView) findViewById(R.id.popularity_review);
+		pop1 = (RelativeLayout) findViewById(R.id.pop1);
+		loccitane_img = (ImageView) findViewById(R.id.loccitane_img);
+		loccitane_box = (ImageView) findViewById(R.id.loccitane_box);
+		loccitane_name = (TextView) findViewById(R.id.loccitane_name);
 		minseo_dan = (TextView) findViewById(R.id.minseo_dan);
+		pop2 = (RelativeLayout) findViewById(R.id.pop2);
+		cusion_box = (ImageView) findViewById(R.id.cusion_box);
+		cusion_name = (TextView) findViewById(R.id.cusion_name);
+		hajin_choi = (TextView) findViewById(R.id.hajin_choi);
+		cusion_img = (ImageView) findViewById(R.id.cusion_img);
+		tab_bar = (ImageView) findViewById(R.id.tab_bar);
 	
 		
 		// Click REVIEW button
-		Button moveButton = findViewById(R.id.reviewBtn);
-		moveButton.setOnClickListener(new View.OnClickListener() {
+		Button reviewBtn = findViewById(R.id.review_btn);
+		reviewBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent(getApplicationContext(), Move.class);
+				Intent intent = new Intent(getApplicationContext(), ReviewActivity.class);
 				startActivity(intent);
 			}
 		});
-
 	}
 }
 	
